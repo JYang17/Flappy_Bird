@@ -18,6 +18,7 @@ def load():
 
     # numbers sprites for score display
     IMAGES['numbers'] = (
+        #字符串路径的\和/是不一样的，要用/，而且路径中不能有中文，最好用绝对路径
         pygame.image.load('assets/sprites/0.png').convert_alpha(),
         pygame.image.load('assets/sprites/1.png').convert_alpha(),
         pygame.image.load('assets/sprites/2.png').convert_alpha(),
